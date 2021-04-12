@@ -91,7 +91,9 @@ h2 {
 
 .card p {
     font-size: 2rem;
-    font-size: 1rem;
+    line-height: 3rem;
+    white-space: nowrap;
+    margin-top: 1rem;
 }
 
 .card.total {
@@ -175,8 +177,6 @@ table tbody tr td:last-child{
 }
 
 table thead th {
-    background: white;
-
     font-weight: normal;
     padding: 1rem 2rem;
 
@@ -262,7 +262,7 @@ input {
     margin-top: 0.8rem;
 }
 
-.input-group small {
+.input-group .help {
     opacity: 0.4;
 }
 
